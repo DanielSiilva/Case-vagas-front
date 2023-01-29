@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { ContainerForm } from "./components/Form/Index"
 import { Score } from "./components/Score"
 import { Stickers } from "./components/Stickesrs"
 
@@ -43,6 +44,8 @@ export function Home (){
                 updateCount={updateCount}
                 updateMinusCount={updateMinusCount}
             />
+
+            <ContainerForm />
 
         
         </C.Container>

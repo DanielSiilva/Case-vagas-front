@@ -6,8 +6,11 @@ export const Container = styled.div`
     align-items: stretch;
     justify-content: center;
     gap: 2rem;
+    
+    /* padding: 5rem; */
 
-    padding: 5rem;
+    height: auto;
+    width: 100vw;
 
 
    
